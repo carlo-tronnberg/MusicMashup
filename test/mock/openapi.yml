@@ -1,0 +1,16 @@
+openapi: '3.0.3'
+info:
+  title: Template NodeJS & Express API
+  description: Template NodeJS & Express API for testing.
+  version: 1.0.0
+servers:
+  - url: http://localhost:9080
+  - url: https://tictactoe-orange.wdc1a.ciocloud.nonprod.intranet.ibm.com
+paths:
+  /api/v1/dummy:
+    get:
+      summary: Get the game results.
+      description: Get the game results.
+      responses:
+        404:
+          description: Not found

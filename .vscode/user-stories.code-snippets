@@ -1,0 +1,68 @@
+{
+	"User story": {
+	  "scope": "markdown",
+	  "prefix": "us",
+	  "body": [
+		"### ⚠ US${1:1} - $2",
+		"```",
+		"As a $3,",
+		"I want $4,",
+		"so that $5.",
+		"```",
+		"",
+		"#### ⚠ UAT$1.1",
+		"```",
+		"  Given $6",
+		"  When $7",
+		"  Then $8",
+		"```",
+		""
+	  ],
+	  "description": "User story template."
+	},
+	"User acceptance test": {
+	  "scope": "markdown",
+	  "prefix": "uat",
+	  "body": [
+		"#### ⚠ UAT$1.$2",
+		"```",
+		"  Given $3",
+		"  When $4",
+		"  Then $5",
+		"```",
+		""
+	  ],
+	  "description": "User acceptance test template."
+	},
+	"Todo": {
+	  "scope": "markdown",
+	  "prefix": ["todo", "warning"],
+	  "body": "⚠",
+	  "description": "Warning emoji"
+	},
+	"In progress": {
+	  "scope": "markdown",
+	  "prefix": ["ip"],
+	  "body": "🚧",
+	  "description": "In progress emoji"
+	},
+	"Done": {
+	  "scope": "markdown",
+	  "prefix": ["ok", "done"],
+	  "body": "✅",
+	  "description": "Done emoji"
+	},
+	"Error": {
+	  "scope": "markdown",
+	  "prefix": ["err"],
+	  "body": "❌",
+	  "description": "Error emoji"
+	},
+	"Pomodoro": {
+	  "scope": "markdown",
+	  "prefix": ["pom", "pomodoro"],
+	  "body": ["### Pomodoro $1", "", "- ⚠ $2", ""],
+	  "description": "Pomodoro template"
+	}
+  }
+  

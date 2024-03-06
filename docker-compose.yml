@@ -1,0 +1,22 @@
+version: '3.4'
+
+services:
+  <repository_name>:
+    image: <repository_name>
+    container_name: <repository_name>
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 9080:9080
+
+  swagger:
+    image: swagger-ui
+    container_name: swagger-ui
+    build:
+      context: .
+      dockerfile: ./Dockerfile-swagger
+    ports:
+      - 8080:8080
