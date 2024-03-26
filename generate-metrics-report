@@ -29,6 +29,9 @@ for (let type of ['lines','statements','functions','branches']) {
 const coverageMarker = marker(coverageSuccess);
 const complexityMarker = marker(complexity.cyclomatic <= 4);
 console.log(\`\
+Metrics report -\n\
+[Complexity report](complexity-report.md)\n\
+\n\
 # Repo Metrics\n\
 ## Tests \${testResultMarker}\n\
 Result: \${testResult}\n\n\

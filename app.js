@@ -1,15 +1,12 @@
-const express = require('express');
-const helmet = require('helmet');
-const cors = require('cors');
-const dummy = require('./src/dummy');
+const app = require('./src/api/app');
 
-const app = express();
-app.use(helmet());
-app.use(cors());
+const port = '9080';
 
-app.get('/api/v1/dummy', (response) => {
-  response.send(dummy(1, 2));
+const server = app.listen(port, () => {
+  // eslint-disable-next-line no-console
+  console.log(
+    `🚀 NodeJS app listening at http://localhost:${server.address().port}.....`,
+  );
 });
 
-// eslint-disable-next-line no-unused-vars
-const server = app.listen('9080');
+module.exports = app;

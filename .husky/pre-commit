@@ -2,5 +2,5 @@
 . "$(dirname "$0")/_/husky.sh"
 
 npm run complexity
-git add .
+git add complexity-report.md
 npm run precommit

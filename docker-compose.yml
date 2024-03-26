@@ -1,9 +1,9 @@
 version: '3.4'
 
 services:
-  <repository_name>:
-    image: <repository_name>
-    container_name: <repository_name>
+  MusicMashup:
+    image: MusicMashup
+    container_name: MusicMashup
     build:
       context: .
       dockerfile: ./Dockerfile
