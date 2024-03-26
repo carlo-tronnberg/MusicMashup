@@ -57,7 +57,7 @@
     "body-parser": "^1.20.2",
     "complexity-report": "^2.0.0-alpha",
     "cors": "^2.8.5",
-    "express": "^4.17.2",
+    "express": "^4.19.2",
     "helmet": "^5.0.1",
     "jsonpath": "^1.1.1",
     "node-fetch": "^2.7.0",
