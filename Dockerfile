@@ -17,7 +17,7 @@ RUN /usr/local/bin/node-prune
 COPY . .
 
 # Build final image using small base image.
-FROM node:18.18.2
+FROM node:18.20.1
 
 WORKDIR /usr/src/app
 
